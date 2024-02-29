@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "market-communities-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/marketCommunities/MarketCommunitiesWebPart.js",
+          "manifest": "./src/webparts/marketCommunities/MarketCommunitiesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MarketCommunitiesWebPartStrings": "lib/webparts/marketCommunities/loc/{locale}.js"
+  }
+}

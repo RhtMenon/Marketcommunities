@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "market-communities-client-side-solution",
+    "id": "7f87e398-8264-492f-91f3-c48ec2caa76c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MarketCommunities description"
+      },
+      "longDescription": {
+        "default": "MarketCommunities description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "market-communities Feature",
+        "description": "The feature that activates elements of the market-communities solution.",
+        "id": "81162b80-f8e8-429f-900d-1ff7a8c430a2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/market-communities.sppkg"
+  }
+}
